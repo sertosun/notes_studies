@@ -1,0 +1,41 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+#notes {
+  width: 100%;
+  display: flex;
+  align-items: center;
+  gap: 2rem;
+  padding: 2rem;
+}
+
+.note {
+    min-height: 200px;
+    padding: 1rem;
+    border: 1px solid black;
+    border-radius: 20px;
+    font-size: 1rem;
+}
+
+.add-note {
+    height: 200px; 
+    width: 200px;
+    border-radius: 20px;
+    font-weight: bold;
+    text-transform: uppercase;
+    background-color: rgb(228, 163, 0);
+    border: none;
+    transition: all 200ms;
+}
+
+span{
+    font-size: 3rem;
+}
+
+.add-note:hover {
+    background-color: rgb(159, 2, 2);
+    color: white;
+}
